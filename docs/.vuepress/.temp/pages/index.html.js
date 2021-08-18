@@ -8,11 +8,16 @@ export const data = {
   "headers": [],
   "filePathRelative": "README.md",
   "git": {
-    "updatedTime": 1629168052000,
+    "updatedTime": 1629270902000,
     "contributors": [
       {
         "name": "bu.xu_ex",
         "email": "bu.xu@hand-china.com",
+        "commits": 1
+      },
+      {
+        "name": "micjason",
+        "email": "13818393704@163.com",
         "commits": 1
       }
     ]
