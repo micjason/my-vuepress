@@ -1,5 +1,9 @@
 #!/usr/bin/env sh
 
+# 文档的仓库地址分支是master，打包之后再提交到gh-pages，放在github提供的网页服务上面，这里的shell命令省去重复操作git的步骤
+# 如果是mac电脑，执行./deploy.sh提示没有权限，先cd..到上一级目录执行sudo chmod -R 777 my-vuepress
+# 然后再执行./deploy.sh
+
 # 确保脚本抛出遇到的错误,不会一直滚雪球下去
 set -e
 
