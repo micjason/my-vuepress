@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:micjason/my-vuepress.git",
-  "author": "bu.xu_ex <bu.xu@hand-china.com>",
+  "author": "micjason <13818393704@163.com>",
   "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "@vue/cli-plugin-eslint": "4.4.6",
+    "babel-eslint": "10.1.0",
+    "eslint": "7.15.0",
+    "eslint-plugin-vue": "7.2.0"
+  },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
-  },
-  "devDependencies": {
-    "vuepress": "^2.0.0-beta.23"
+    "build": "vuepress build docs",
+    "eslint-fix": "eslint docs/.vuepress/theme/*.*  --fix"
   }
 }
